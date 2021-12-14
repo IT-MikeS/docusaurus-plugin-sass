@@ -5,7 +5,7 @@ Provides support for SASS/SCSS to Docusaurus v2.
 # Installation
 
 ```sh
-yarn add docusaurus-plugin-sass sass
+npm i @it_mike_s/docusaurus-plugin-sass sass
 ```
 
 `sass-loader` requires you to install either [Dart Sass](https://github.com/sass/dart-sass) or [Node Sass](https://github.com/sass/node-sass) on your own (more documentation can be found at [`sass-loader`](https://github.com/webpack-contrib/sass-loader#getting-started)).
@@ -18,7 +18,7 @@ yarn add docusaurus-plugin-sass sass
 // docusaurus.config.js
 module.exports = {
   ...
-+ plugins: ['docusaurus-plugin-sass'],
++ plugins: ['@it_mike_s/docusaurus-plugin-sass'],
   ...
 }
 ```
